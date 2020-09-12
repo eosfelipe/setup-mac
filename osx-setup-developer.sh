@@ -20,4 +20,13 @@ brew cask install firefox
 
 chsh -s $(which zsh)
 
+#nvm 
+[]()
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
+#nvm list
+#install latest version node
+nvm install 14
+
 brew cask install visual-studio-code
+
